@@ -9,5 +9,54 @@
 }
 
 body {
+  height: 100vh;
   font-size: 1.6rem;
+  background: linear-gradient(45deg, #190361, #bb00ff);
+  animation: gradient 10s ease infinite;
+  background-size: 200% 200%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #34355b;
+}
+
+.screen-01,
+.screen-02 {
+  width: min(42.8rem, 90%);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 2.7rem;
+  justify-content: center;
+  margin-top: -10rem;
+  padding: 4.8rem 6.4rem 6.4rem;
+  border-radius: 0.6rem;
+}
+
+.hide {
+  display: none;
+}
+
+h1,
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+
+.screen-01 p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 1.4rem;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
