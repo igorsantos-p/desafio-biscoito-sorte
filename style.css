@@ -20,6 +20,11 @@ body {
   color: #34355b;
 }
 
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
 .screen-01,
 .screen-02 {
   width: min(42.8rem, 90%);
@@ -63,7 +68,7 @@ h2 {
   background: #e4edf1;
   padding: 0.1rem;
   box-shadow: 0.2rem 0.2rem 0.2rem 0px rgba(85, 85, 85, 0.5);
-  animation: textUp 1.5s forwards;
+  animation: textUp 1s forwards;
 }
 
 button {
