@@ -1,4 +1,5 @@
-#Desafio Biscoito da Sorte Rocketseat
+# Desafio Biscoito da Sorte Rocketseat
+
 Neste desafio o usuário, **a partir de um clique ou enter**, abre um biscoito com a sua sorte do dia. Aplicando o que foi ensinado na jornada Explorer:
 
 - Estrutura de dados HTML
