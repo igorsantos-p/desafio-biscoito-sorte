@@ -23,6 +23,7 @@ let messengerIndex = Math.round(Math.random() * (messengers.length - 1));
 
 cookie.addEventListener('click', openCookie);
 buttonNew.addEventListener('click', openNewCookie);
+document.addEventListener('keypress', openCookieEnter);
 
 function openCookie() {
   generateMessenger();
@@ -41,4 +42,8 @@ function openNewCookie() {
 
 function generateMessenger() {
   pMessenger.innerText = messengers[messengerIndex];
+}
+
+function openCookieEnter(e) {
+  if (e.key === 'Enter') openCookie();
 }
